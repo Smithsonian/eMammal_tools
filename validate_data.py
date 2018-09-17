@@ -1,12 +1,10 @@
-from bs4 import UnicodeDammit
-import requests
-from bs4 import BeautifulSoup
 import pandas
 import json
 import math
 import numpy
 import re
 import zipfile
+import os
 
 ############################
 #pre-manifest validation
@@ -39,7 +37,7 @@ allowedimg = {
     'Embargo.Period' : '.*',
     'Restrictions.on.Access' : '.*',
     'Image.Use.Restrictions' : '.*'
-}#this dictionary maps all the columns to a regular expression that validates the column contents
+    }#this dictionary maps all the columns to a regular expression that validates the column contents
 
 alloweddep = {
     'Camera.Deployment.ID1': 'd[0-9]{5}',
@@ -58,7 +56,8 @@ alloweddep = {
     'Quiet.Period.Setting' : '(nan|\d+)',
     'Sensitivity.Setting' : '(high|medium|low)',
     'Subproject.Name' : '.+',
-    'Subproject.ID' : '\w+\d+'}#this dictionary maps deployment fields to regular expressions
+    'Subproject.ID' : '\w+\d+'
+    }#this dictionary maps deployment fields to regular expressions
 
 
 def validate_images_csv(file):
@@ -93,7 +92,9 @@ def validate_df(df, allowed):
 #post manifest creation validation
 #
 #This is intended to be run on either folders containing images and XMLs or on zips of the same.
-#The patch should be the directory containing the deployments
+#The path should be the directory containing the deployments
+#
+#The validate_filenames function takes a string containing an emammal XML file and a list of filenames and compares them, looking for errors
 def check_folders(path): #verify the integrity of folders that already contain the manifest.
     deployments = {}
     for x in os.listdir(path):
@@ -102,7 +103,7 @@ def check_folders(path): #verify the integrity of folders that already contain t
             print(x)
             try:
                 xml = open(x+'\\deployment_manifest.xml','r').read()
-                actualfiles = os.listdir(x)
+                actualfiles = [x for x in os.listdir(x) if x != 'deployment_manifest.xml']#this list is all files except the deployment manifest
                 errors = validate_filenames(xml, actualfiles, verbose=True)
                 deployments[x] = errors
             except:
@@ -118,8 +119,8 @@ def check_zip_folders(path): #takes a path to a folder of zipped deployments and
             z = zipfile.ZipFile(x) 
             #print(x)
             try:
-                xml = z.open('deployment_manifest.xml','r').read().decode('utf8')
-                actualfiles = z.namelist()
+                xml = z.read('deployment_manifest.xml').decode('latin')
+                actualfiles = [x for x in z.namelist() if x != 'deployment_manifest.xml']#this list is all files except the deployment manifest
                 errors = validate_filenames(xml, actualfiles, verbose=True)
                 deployments[x] = errors
             except IOError:
@@ -129,23 +130,26 @@ def check_zip_folders(path): #takes a path to a folder of zipped deployments and
     return deployments
 
 def validate_filenames(xml, actualfiles, verbose=False):#takes an XML string and list of filenames, returns a dictionary of errors, set verbose to true for a dictionary describing the errors.
-    exp = re.compile("<Image>.*?<ImageFileName>(.*?)</ImageFileName>.*?<SpeciesScientificName>(.*?)</SpeciesScientificName>.*?</Image>",re.DOTALL)
+    exp = re.compile("<Image>.*?<ImageFileName>(.*?)</ImageFileName>.*?<SpeciesScientificName>(.*?)</SpeciesScientificName>.*?</Image>",re.DOTALL)#use regex to find all images and their species in the xml
     xmlfiles = exp.findall(xml)
     valid = True
     errors = {'typeerrors':[],'imageerrors':[],'xmlerrors':[]}
-    for file in actualfiles:
-        if not re.match('.*(.jpg|.xml)',file, re.IGNORECASE):
+    for file in actualfiles:#check each file in the folder
+        if not re.match('.*(.jpg|.xml)',file, re.IGNORECASE):#check that all files in the folder are allowed
             valid = False
             errors['typeerrors'].append(file)
             #print('--Folders must contain only jpgs or xmls ::: '+x+'\\'+file)
-        if file not in [i[0] for i in xmlfiles] and file != 'deployment_manifest.xml': 
+        if file not in [i[0] for i in xmlfiles] and file != 'deployment_manifest.xml':#check that each file is listed in the xml, list comprehension gets file name from (filename, species) tuples 
             valid = False
             errors['imageerrors'].append(file)
             #print('--folder contains images not in XML :: '+file)
-    for file in xmlfiles:
+    for file in xmlfiles:#check that all files are listed in the XML
         if file[0] not in actualfiles:
             valid = False
             errors['xmlerrors'].append(file)
             #print('--XML contains images not in folder :: '+str(file))
+    if len(xmlfiles) != len(actualfiles):#here we check if the xml has the same number of photos as the folder, this fails when there are duplicates in the XML
+        valid = False
+        errors['lengtherrors'] = {'xml':len(xmlfiles),'files':len(actualfiles)}
     errors['valid'] = valid
     return errors if verbose else valid
