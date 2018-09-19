@@ -127,6 +127,8 @@ def check_zip_folders(path): #takes a path to a folder of zipped deployments and
                 xml = False
                 print("No deployment manifest in "+x)
             z.close()
+        else:
+            print("Error")
     return deployments
 
 def validate_filenames(xml, actualfiles, verbose=False):#takes an XML string and list of filenames, returns a dictionary of errors, set verbose to true for a dictionary describing the errors.
@@ -150,6 +152,6 @@ def validate_filenames(xml, actualfiles, verbose=False):#takes an XML string and
             #print('--XML contains images not in folder :: '+str(file))
     if len(xmlfiles) != len(actualfiles):#here we check if the xml has the same number of photos as the folder, this fails when there are duplicates in the XML
         valid = False
-        errors['lengtherrors'] = {'xml':len(xmlfiles),'files':len(actualfiles)}
+        errors['lengtherrors'] = [[len(xmlfiles),len(actualfiles)]]
     errors['valid'] = valid
     return errors if verbose else valid

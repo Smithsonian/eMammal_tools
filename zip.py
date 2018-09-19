@@ -4,6 +4,7 @@ from shutil import copyfile
 import re
 import validate_data
 import csv
+import json
 
 def zip_files(in_path, out_path):#In path is a directory with many folders as <depname>/deployment_manifest.xml and out_path is a directory with <depname>/<filenames>.JPG
     os.chdir(in_path)
@@ -11,7 +12,7 @@ def zip_files(in_path, out_path):#In path is a directory with many folders as <d
         if os.path.isdir(x):
             if not os.path.isfile(out_path+'\\zip\\'+x+'.zip'):
                 xml = open(x+'\\deployment_manifest.xml','r').read()
-                actualfiles = os.listdir(out_path+"\\"+x)
+                actualfiles = [x for x in os.listdir(out_path+"\\"+x) if x != 'deployment_manifest.xml']
                 errors = validate_data.validate_filenames(xml, actualfiles, verbose=True)
                 if errors['valid']:
                     copyfile(x+'\\deployment_manifest.xml', out_path+'\\'+x+'\\deployment_manifest.xml')
@@ -20,16 +21,18 @@ def zip_files(in_path, out_path):#In path is a directory with many folders as <d
                     subprocess.call(command)#subprocess.run() would be better
                 else:
                     print("there are errors with your data\n")
+                    with open("errors.json","w") as file:
+                        file.write(json.dumps(errors))
                     if not os.path.isfile('errors.csv'):
                         with open('errors.csv','a', newline='') as errorscsv:
                             errorwriter = csv.writer(errorscsv, dialect='excel')
-                            errorwriter.writerow(['error','image','species'])
+                            errorwriter.writerow(['deployment','error','image','species'])
                     for key, value in errors.items():
                         if value:
                             with open('errors.csv','a', newline='') as errorscsv:
                                 errorwriter = csv.writer(errorscsv, dialect='excel')
                                 for image in value:
-                                    list = [key]
+                                    list = [x,key]
                                     list.extend(image)
                                     print(list)
                                     errorwriter.writerow(list)
@@ -43,7 +46,8 @@ def zip_files(in_path, out_path):#In path is a directory with many folders as <d
                             command = '"C:\\Program Files\\7-Zip\\7z.exe" a '+'"'+out_path+'\\zip\\'+x+'.zip"'+' "'+out_path+'\\'+x+'\\*'+'"'
                             print(command)
                             subprocess.call(command)#subprocess.run() would be better
-                    if errors['xmlerrors']: 
+                    if errors['xmlerrors']:
+                        print(x)
                         print(str(errors['xmlerrors'])+'\n'+x+'\nXML contains files not in the folder. Those are listed above and in output/errors.csv, along with the associated species IDs.')
 
 def delete_list(list,path):
