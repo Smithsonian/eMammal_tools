@@ -39,7 +39,7 @@ for dirName, subdirList, fileList in os.walk(path):
             #file.close()
             os.chdir(path)
     except Exception:
-        output = open(path+'errors.csv', 'a')
+        output = open(os.path.join(path,'errors.csv'), 'a')
         output.write(dirName+','+str(sys.exc_info()[0])+'\n')
         output.close()
         #print('error on: '+dirName)

@@ -5,6 +5,7 @@ import numpy
 import re
 import zipfile
 import os
+import argparse
 
 ############################
 #pre-manifest validation
@@ -128,6 +129,7 @@ def check_zip_folders(path): #takes a path to a folder of zipped deployments and
                 print("No deployment manifest in "+x)
             z.close()
         else:
+            print(x)
             print("Error")
     return deployments
 
@@ -155,3 +157,27 @@ def validate_filenames(xml, actualfiles, verbose=False):#takes an XML string and
         errors['lengtherrors'] = [[len(xmlfiles),len(actualfiles)]]
     errors['valid'] = valid
     return errors if verbose else valid
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('type', choices=['zip','folder'], help='Either "zip" or "folder"')
+    parser.add_argument('folder', help='What is the path of the parent folder containing the deployments?')
+    parser.add_argument('output', help='Where should the summary json file be saved?')
+    args = parser.parse_args()
+    deployments = {}
+    if args.type == 'zip':
+        deployments = check_zip_folders(args.folder)
+    if args.type == 'folder':
+        deployments = check_folders(args.folder)
+    output = args.output+'.json'
+    try:
+        with open(output, 'w') as file:
+            file.write(json.dumps(deployments))
+    except:
+        output = 'output.json'
+        with open(output, 'w') as file:
+            file.write(json.dumps(deployments))
+    print('The output has been saved to '+str(os.path.realpath(output)))
+    
+if __name__ == "__main__":
+    main()

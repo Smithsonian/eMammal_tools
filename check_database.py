@@ -15,6 +15,7 @@ details = {}
 def getPID(dep_names):#returns a dict of deployment names with documents and their PIDs
     deployments = {}
     for deployment in dep_names:
+        print(deployment)
         deployments[deployment] = {}
         request_id = requests.get("http://oris-srv04.si.edu:8090/solr/gsearch_sianct/select?q=ctLabel%3A"+deployment+"&wt=json&indent=true")#creates a URL to search for the deployment
         response = json.loads(request_id.text)
@@ -66,7 +67,10 @@ if __name__ == '__main__':#this allows this file to be run as a script or import
     parser = argparse.ArgumentParser()
     parser.add_argument('--getcsvs', help='True if you want to download the CSVs from workbench')
     args = parser.parse_args()
-    details = getPID(input("paste a list of deployment names split by return or space").split())#creates a list of deployments from user input
+    deps = input("paste a list of deployment names split by spaces").split()
+    print(deps)
+    details = getPID(deps)#creates a list of deployments from user input
+    print(details)
     output = input('Give a filename to export the deployments to: ')
     pandas.DataFrame.from_dict(details,orient='index').to_csv(output)
     if args.getcsvs:

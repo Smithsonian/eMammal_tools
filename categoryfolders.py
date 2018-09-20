@@ -3,7 +3,7 @@ import pandas
 import re
 import shutil
 
-def sort_deps(path): #verify the integrity of folders that already contain the manifest.
+def sort_deps(path):
     deployments = {}
     for x in os.listdir(path):
         os.chdir(path)
