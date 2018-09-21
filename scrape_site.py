@@ -117,7 +117,7 @@ def extract_species_info(speciesurl,cookie):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('action', help='Either "species" or "deployment(s)"')
+    parser.add_argument('action', help='Either "species" or "deployments"')
     parser.add_argument('output', help='where should the output be saved?')
     parser.add_argument('--deployments', help='provide a csv with a column named "Deployment.ID" containing deployment names')
     #parser.add_argument('--project', help='provide the project name')
