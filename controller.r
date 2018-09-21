@@ -83,9 +83,17 @@
 }
 
 ##################################
-#
-# run prevalidation
-#
+###
+### run prevalidation
+###
+### this verifies that the csvs provided have acceptable values in all fields
+###
+### If there are errors it will bring them up in this window
+###
+### Otherwise it will bring up a summary of all of the fields for the deployment and images csvs.
+### Verify that the values make sense. Many fields such as notes can be arbitrary strings, so if they are wrong, the script can not tell.
+### Do a quick once-over to verify all fields value summaries.
+###
 ##################################
 {
   setwd(projpath)
@@ -164,8 +172,12 @@
 ######************************************************************************************************************************************************
 ######* 
 ######*   You MUST run the XML validator now to check the manifests
+######*   
+######*   It can be run on the folder of XMLs created at <projpath>\output\xmls\
 ######*
-######*   To start, run block below
+######*   To start, run block below 
+######*
+######*   Or open the JAR file located at the link below
 ######*
 ######*   "X:\1 eMammal\Legacy Data\0_Legacy Data Converter\eMammal Manifest Validators\Jar Files\eMammal-xmlVerifier-1.0.3.jar"
 ######*
@@ -176,15 +188,23 @@
   setwd(projpath)
   system("java -jar \"X:\\1 eMammal\\Legacy Data\\0_Legacy Data Converter\\eMammal Manifest Validators\\Jar Files\\eMammal-xmlVerifier-1.0.3.jar\"", intern=TRUE)
 }
-  
 
-#copy the xmls to the image folders, verify their contents and zip them
-#**********************************************************************
+##########################################################################################################################################################   
+####
+####  Once all of the XMLs have passed validation, you need to delete the xmls folder from <projpath>\output\
+####  If this folder is not deleted the zipping function will fail.
+####
+####
+####  the zip_files function copys the xmls to the image folders, verifies their contents and zips them to imagespath/zip/<deploymentname>.zip
+####**********************************************************************
+####
+####  zip_files takes two paths, the parent of the folders containing XMLs and the parent of the folders containing each deployments images
+####  it will raise errors if there is anything else in the folder
+####  it will check that the xml's first and last filename match a file in the folder
+####  the function will not overwrite existing zip folders, if you would like to recreate the zips, manually delete them before running below.
+####
+##########################################################################################################################################################
 
-#zip_files takes two paths, the parent of the folders containing XMLs and the parent of the folders containing each deployments images
-#it will raise errors if there is anything else in the folder
-#it will check that the xml's first and last filename match a file in the folder
-#the function will not overwrite existing zip folders, if you would like to recreate the zips, manually delete them before running below.
 
 zip$zip_files(outputpath, imagespath)
 

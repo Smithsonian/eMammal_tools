@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CameraTrapDeployment>
+    <ProjectId>p193</ProjectId>
+    <ProjectName>Minshan Mountains Project</ProjectName>
+    <ProjectObjectives>Minshan Mountains is one the most important giant panda distribution areas in China. A nature reserve system has been established in this area for the giant panda conservation. We have surveyed mammals and pheasants from 2004 using cameras and sign transects. The surveys are scatterly distributed from 2004 to 2016. Outside the nature reserves, there are still large forest areas embedded in a human-dominated landscape, which probably function as both habitat and movement corridor for many animals. We surveyed potential corridor areas with remote cameras based on the same survey protocol as our previous survey projects, in order to identify key habitats for connecting isolated areas and will aid in corridor design.</ProjectObjectives>
+    <PublishDate>2017-02-24</PublishDate>
+    <ProjectOwners>
+        <ProjectOwner>
+            <ProjectOwnerName>Bill McShea</ProjectOwnerName>
+            <ProjectOwnerEmail>mcsheaw@si.edu</ProjectOwnerEmail>
+        </ProjectOwner>
+    </ProjectOwners>
+    <PrincipalInvestigators>
+        <PrincipalInvestigator>
+            <PrincipalInvestigatorName>Bill McShea</PrincipalInvestigatorName>
+            <PrincipalInvestigatorEmail>mcsheaw@si.edu</PrincipalInvestigatorEmail>
+        </PrincipalInvestigator>
+    </PrincipalInvestigators>
+    <ProjectContacts>
+        <ProjectContact>
+            <ProjectContactName>Bill McShea</ProjectContactName>
+            <ProjectContactEmail>mcsheaw@si.edu</ProjectContactEmail>
+        </ProjectContact>
+    </ProjectContacts>
+    <ProjectLatitude>32.60993</ProjectLatitude>
+    <ProjectLongitude>104.18109</ProjectLongitude>
+    <CountryCode>CHN</CountryCode>
+    <ProjectDataAccessandUseConstraints></ProjectDataAccessandUseConstraints>
+    <SubProjectId>2</SubProjectId>
+    <SubProjectName>Wanglang</SubProjectName>
+    <SubProjectDesign></SubProjectDesign>
+    <PlotName></PlotName>
+    <PlotTreatment></PlotTreatment>
+    <CameraDeploymentID>d34241</CameraDeploymentID>
+    <CameraSiteName>L-WL15-E09A</CameraSiteName>
+    <Originators>
+        <Originator>
+            <OriginatorName></OriginatorName>
+        </Originator>
+    </Originators>
+    <ProposedCameraDeploymentBeginDate></ProposedCameraDeploymentBeginDate>
+    <ProposedCameraDeploymentEndDate></ProposedCameraDeploymentEndDate>
+    <ProposedLatitude></ProposedLatitude>
+    <ProposedLongitude></ProposedLongitude>
+    <CameraDeploymentBeginDate>2015-07-29</CameraDeploymentBeginDate>
+    <CameraDeploymentEndDate>2015-08-15</CameraDeploymentEndDate>
+    <CameraDeploymentNotes></CameraDeploymentNotes>
+    <ActualLatitude>32.97198105</ActualLatitude>
+    <ActualLongitude>103.9883</ActualLongitude>
+    <CameraFailureDetails>Camera Functioning</CameraFailureDetails>
+    <Bait>Scent</Bait>
+    <BaitDescription>Carman's Magna Lure</BaitDescription>
+    <Feature>Trail, game</Feature>
+    <FeatureMethodology></FeatureMethodology>
+    <AccessConstraints>NT</AccessConstraints>
+    <CameraID>WL-013</CameraID>
+    <DetectionDistance>0</DetectionDistance>
+    <QuietPeriodSetting></QuietPeriodSetting>
+    <ImageResolutionSetting></ImageResolutionSetting>
+    <SensitivitySetting></SensitivitySetting>
+    
+    <ImageSequence>
+        <ImageSequenceId>d34241s1</ImageSequenceId>
+        <ImageSequenceBeginTime>2015-07-29T13:13:00</ImageSequenceBeginTime>
+        <ImageSequenceEndTime>2015-07-29T13:13:00</ImageSequenceEndTime>
+        <VolunteerIdentifications>
+            
+            <Identification>
+                <IUCNId>2</IUCNId>
+                <TSNId>2</TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName>No Animal</SpeciesCommonName>
+                <Count>1</Count>
+                <Age></Age>
+                <Sex></Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable></AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+        </VolunteerIdentifications>
+        <ResearcherIdentifications>
+            
+            <Identification>
+                <IUCNId>2</IUCNId>
+                <TSNId>2</TSNId>
+                <SpeciesScientificName>No Animal</SpeciesScientificName>
+                <SpeciesCommonName>No Animal</SpeciesCommonName>
+                <Count>1</Count>
+                <Age></Age>
+                <Sex></Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable></AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+        </ResearcherIdentifications>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0001</ImageId>
+            <ImageFileName>L-WL15-E09A-0001.JPG</ImageFileName>
+            <ImageDateTime>2015-07-29 13:13:00</ImageDateTime>
+            <ImageOrder>1</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0002</ImageId>
+            <ImageFileName>L-WL15-E09A-0002.JPG</ImageFileName>
+            <ImageDateTime>2015-07-29 13:13:00</ImageDateTime>
+            <ImageOrder>2</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0003</ImageId>
+            <ImageFileName>L-WL15-E09A-0003.JPG</ImageFileName>
+            <ImageDateTime>2015-07-29 13:13:00</ImageDateTime>
+            <ImageOrder>3</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0004</ImageId>
+            <ImageFileName>L-WL15-E09A-0004.JPG</ImageFileName>
+            <ImageDateTime>2015-07-29 13:13:00</ImageDateTime>
+            <ImageOrder>4</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0005</ImageId>
+            <ImageFileName>L-WL15-E09A-0005.JPG</ImageFileName>
+            <ImageDateTime>2015-07-29 13:13:00</ImageDateTime>
+            <ImageOrder>5</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0006</ImageId>
+            <ImageFileName>L-WL15-E09A-0006.JPG</ImageFileName>
+            <ImageDateTime>2015-07-29 13:13:00</ImageDateTime>
+            <ImageOrder>6</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0007</ImageId>
+            <ImageFileName>L-WL15-E09A-0007.JPG</ImageFileName>
+            <ImageDateTime>2015-07-29 13:13:00</ImageDateTime>
+            <ImageOrder>7</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0008</ImageId>
+            <ImageFileName>L-WL15-E09A-0008.JPG</ImageFileName>
+            <ImageDateTime>2015-07-29 13:13:00</ImageDateTime>
+            <ImageOrder>8</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0009</ImageId>
+            <ImageFileName>L-WL15-E09A-0009.JPG</ImageFileName>
+            <ImageDateTime>2015-07-29 13:13:00</ImageDateTime>
+            <ImageOrder>9</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0010</ImageId>
+            <ImageFileName>L-WL15-E09A-0010.JPG</ImageFileName>
+            <ImageDateTime>2015-07-29 13:13:00</ImageDateTime>
+            <ImageOrder>10</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+    </ImageSequence>
+    
+    <ImageSequence>
+        <ImageSequenceId>d34241s2</ImageSequenceId>
+        <ImageSequenceBeginTime>2015-07-31T15:26:00</ImageSequenceBeginTime>
+        <ImageSequenceEndTime>2015-07-31T15:26:00</ImageSequenceEndTime>
+        <VolunteerIdentifications>
+            
+            <Identification>
+                <IUCNId>70205537</IUCNId>
+                <TSNId>621921</TSNId>
+                <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                <Count>1</Count>
+                <Age></Age>
+                <Sex></Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable></AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+        </VolunteerIdentifications>
+        <ResearcherIdentifications>
+            
+            <Identification>
+                <IUCNId>70205537</IUCNId>
+                <TSNId>621921</TSNId>
+                <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                <Count>1</Count>
+                <Age></Age>
+                <Sex></Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable></AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+        </ResearcherIdentifications>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0011</ImageId>
+            <ImageFileName>L-WL15-E09A-0011.JPG</ImageFileName>
+            <ImageDateTime>2015-07-31 15:26:00</ImageDateTime>
+            <ImageOrder>1</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>70205537</IUCNId>
+                    <TSNId>621921</TSNId>
+                    <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                    <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0012</ImageId>
+            <ImageFileName>L-WL15-E09A-0012.JPG</ImageFileName>
+            <ImageDateTime>2015-07-31 15:26:00</ImageDateTime>
+            <ImageOrder>2</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>70205537</IUCNId>
+                    <TSNId>621921</TSNId>
+                    <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                    <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0013</ImageId>
+            <ImageFileName>L-WL15-E09A-0013.JPG</ImageFileName>
+            <ImageDateTime>2015-07-31 15:26:00</ImageDateTime>
+            <ImageOrder>3</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>70205537</IUCNId>
+                    <TSNId>621921</TSNId>
+                    <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                    <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0014</ImageId>
+            <ImageFileName>L-WL15-E09A-0014.JPG</ImageFileName>
+            <ImageDateTime>2015-07-31 15:26:00</ImageDateTime>
+            <ImageOrder>4</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>70205537</IUCNId>
+                    <TSNId>621921</TSNId>
+                    <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                    <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0015</ImageId>
+            <ImageFileName>L-WL15-E09A-0015.JPG</ImageFileName>
+            <ImageDateTime>2015-07-31 15:26:00</ImageDateTime>
+            <ImageOrder>5</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>70205537</IUCNId>
+                    <TSNId>621921</TSNId>
+                    <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                    <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0016</ImageId>
+            <ImageFileName>L-WL15-E09A-0016.JPG</ImageFileName>
+            <ImageDateTime>2015-07-31 15:26:00</ImageDateTime>
+            <ImageOrder>6</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>70205537</IUCNId>
+                    <TSNId>621921</TSNId>
+                    <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                    <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0017</ImageId>
+            <ImageFileName>L-WL15-E09A-0017.JPG</ImageFileName>
+            <ImageDateTime>2015-07-31 15:26:00</ImageDateTime>
+            <ImageOrder>7</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0018</ImageId>
+            <ImageFileName>L-WL15-E09A-0018.JPG</ImageFileName>
+            <ImageDateTime>2015-07-31 15:26:00</ImageDateTime>
+            <ImageOrder>8</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0019</ImageId>
+            <ImageFileName>L-WL15-E09A-0019.JPG</ImageFileName>
+            <ImageDateTime>2015-07-31 15:26:00</ImageDateTime>
+            <ImageOrder>9</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0020</ImageId>
+            <ImageFileName>L-WL15-E09A-0020.JPG</ImageFileName>
+            <ImageDateTime>2015-07-31 15:26:00</ImageDateTime>
+            <ImageOrder>10</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+    </ImageSequence>
+    
+    <ImageSequence>
+        <ImageSequenceId>d34241s3</ImageSequenceId>
+        <ImageSequenceBeginTime>2015-08-15T14:06:00</ImageSequenceBeginTime>
+        <ImageSequenceEndTime>2015-08-15T14:06:00</ImageSequenceEndTime>
+        <VolunteerIdentifications>
+            
+            <Identification>
+                <IUCNId>70205537</IUCNId>
+                <TSNId>621921</TSNId>
+                <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                <Count>1</Count>
+                <Age></Age>
+                <Sex></Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable></AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+        </VolunteerIdentifications>
+        <ResearcherIdentifications>
+            
+            <Identification>
+                <IUCNId>70205537</IUCNId>
+                <TSNId>621921</TSNId>
+                <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                <Count>1</Count>
+                <Age></Age>
+                <Sex></Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable></AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+        </ResearcherIdentifications>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0021</ImageId>
+            <ImageFileName>L-WL15-E09A-0021.JPG</ImageFileName>
+            <ImageDateTime>2015-08-15 14:06:00</ImageDateTime>
+            <ImageOrder>1</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>70205537</IUCNId>
+                    <TSNId>621921</TSNId>
+                    <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                    <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0022</ImageId>
+            <ImageFileName>L-WL15-E09A-0022.JPG</ImageFileName>
+            <ImageDateTime>2015-08-15 14:06:00</ImageDateTime>
+            <ImageOrder>2</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>70205537</IUCNId>
+                    <TSNId>621921</TSNId>
+                    <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                    <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0023</ImageId>
+            <ImageFileName>L-WL15-E09A-0023.JPG</ImageFileName>
+            <ImageDateTime>2015-08-15 14:06:00</ImageDateTime>
+            <ImageOrder>3</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>70205537</IUCNId>
+                    <TSNId>621921</TSNId>
+                    <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                    <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0024</ImageId>
+            <ImageFileName>L-WL15-E09A-0024.JPG</ImageFileName>
+            <ImageDateTime>2015-08-15 14:06:00</ImageDateTime>
+            <ImageOrder>4</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>70205537</IUCNId>
+                    <TSNId>621921</TSNId>
+                    <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                    <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0025</ImageId>
+            <ImageFileName>L-WL15-E09A-0025.JPG</ImageFileName>
+            <ImageDateTime>2015-08-15 14:06:00</ImageDateTime>
+            <ImageOrder>5</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>70205537</IUCNId>
+                    <TSNId>621921</TSNId>
+                    <SpeciesScientificName>Arctonyx collaris</SpeciesScientificName>
+                    <SpeciesCommonName>Hog Badger</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0026</ImageId>
+            <ImageFileName>L-WL15-E09A-0026.JPG</ImageFileName>
+            <ImageDateTime>2015-08-15 14:06:00</ImageDateTime>
+            <ImageOrder>6</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0027</ImageId>
+            <ImageFileName>L-WL15-E09A-0027.JPG</ImageFileName>
+            <ImageDateTime>2015-08-15 14:06:00</ImageDateTime>
+            <ImageOrder>7</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0028</ImageId>
+            <ImageFileName>L-WL15-E09A-0028.JPG</ImageFileName>
+            <ImageDateTime>2015-08-15 14:06:00</ImageDateTime>
+            <ImageOrder>8</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0029</ImageId>
+            <ImageFileName>L-WL15-E09A-0029.JPG</ImageFileName>
+            <ImageDateTime>2015-08-15 14:06:00</ImageDateTime>
+            <ImageOrder>9</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-E09A-0030</ImageId>
+            <ImageFileName>L-WL15-E09A-0030.JPG</ImageFileName>
+            <ImageDateTime>2015-08-15 14:06:00</ImageDateTime>
+            <ImageOrder>10</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+    </ImageSequence>
+    
+
+</CameraTrapDeployment>
