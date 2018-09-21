@@ -1,0 +1,9 @@
+install anaconda navigator locally (not technically required, but will be far faster)
+
+XML Processing requirements:
+pandas
+
+Scraping requirements:
+requests
+bs4
+html5lib
