@@ -1,0 +1,8 @@
+Camera.Deployment.ID1,Camera.Deployment.ID,Camera.Site.Name,Camera.Deployment.Begin.Date,Camera.Deployment.End.Date,Actual.Latitude,Actual.Longitude,Camera.Failure.Details,Bait,Bait.Description,Feature,Feature.Methodology,Camera.ID,Quiet.Period.Setting,Sensitivity.Setting,Subproject.Name,Subproject.ID
+d34186,L-WL16-L11A,L-WL16-L11A,3/21/2016,8/22/2016,32.95333862,104.06446,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,DC-R11,,high,Wanglang Nature Reserve,sp1152
+d36093,L-WL16-J08A,L-WL16-J08A,8/2/2016,10/3/2016,32.97666931,104.04349,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,PU22,,high,Wanglang Nature Reserve,sp1152
+d34175,L-WL16-J05A,L-WL16-J05A,3/19/2016,5/4/2016,33.00405121,104.03932,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,WL-028,,high,Wanglang Nature Reserve,sp1152
+d34173,L-WL16-H03A,L-WL16-H03A,3/19/2016,7/17/2016,33.02759171,104.01746,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,WL-001,,high,Wanglang Nature Reserve,sp1152
+d36052,L-WL16-D16A,L-WL16-D16A,7/30/2016,10/4/2016,32.90731049,103.97418,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,WL-007,,high,Wanglang Nature Reserve,sp1152
+d34306,L-WL15-S15A,L-WL15-S15A,11/12/2015,11/25/2015,32.91822052,104.1391,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,WL-002,,high,Wanglang Nature Reserve,sp1152
+d34298,L-WL15-R16A,L-WL15-R16A,11/10/2015,2/27/2016,32.91276169,104.12694,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,PU23,,high,Wanglang Nature Reserve,sp1152

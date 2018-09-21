@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CameraTrapDeployment>
+    <ProjectId>p193</ProjectId>
+    <ProjectName>Minshan Mountains Project</ProjectName>
+    <ProjectObjectives>Minshan Mountains is one the most important giant panda distribution areas in China. A nature reserve system has been established in this area for the giant panda conservation. We have surveyed mammals and pheasants from 2004 using cameras and sign transects. The surveys are scatterly distributed from 2004 to 2016. Outside the nature reserves, there are still large forest areas embedded in a human-dominated landscape, which probably function as both habitat and movement corridor for many animals. We surveyed potential corridor areas with remote cameras based on the same survey protocol as our previous survey projects, in order to identify key habitats for connecting isolated areas and will aid in corridor design.</ProjectObjectives>
+    <PublishDate>2017-02-24</PublishDate>
+    <ProjectOwners>
+        <ProjectOwner>
+            <ProjectOwnerName>Bill McShea</ProjectOwnerName>
+            <ProjectOwnerEmail>mcsheaw@si.edu</ProjectOwnerEmail>
+        </ProjectOwner>
+    </ProjectOwners>
+    <PrincipalInvestigators>
+        <PrincipalInvestigator>
+            <PrincipalInvestigatorName>Bill McShea</PrincipalInvestigatorName>
+            <PrincipalInvestigatorEmail>mcsheaw@si.edu</PrincipalInvestigatorEmail>
+        </PrincipalInvestigator>
+    </PrincipalInvestigators>
+    <ProjectContacts>
+        <ProjectContact>
+            <ProjectContactName>Bill McShea</ProjectContactName>
+            <ProjectContactEmail>mcsheaw@si.edu</ProjectContactEmail>
+        </ProjectContact>
+    </ProjectContacts>
+    <ProjectLatitude>32.60993</ProjectLatitude>
+    <ProjectLongitude>104.18109</ProjectLongitude>
+    <CountryCode>CHN</CountryCode>
+    <ProjectDataAccessandUseConstraints></ProjectDataAccessandUseConstraints>
+    <SubProjectId>sp1152</SubProjectId>
+    <SubProjectName>Wanglang Nature Reserve</SubProjectName>
+    <SubProjectDesign></SubProjectDesign>
+    <PlotName></PlotName>
+    <PlotTreatment></PlotTreatment>
+    <CameraDeploymentID>d34306</CameraDeploymentID>
+    <CameraSiteName>L-WL15-S15A</CameraSiteName>
+    <Originators>
+        <Originator>
+            <OriginatorName></OriginatorName>
+        </Originator>
+    </Originators>
+    <ProposedCameraDeploymentBeginDate></ProposedCameraDeploymentBeginDate>
+    <ProposedCameraDeploymentEndDate></ProposedCameraDeploymentEndDate>
+    <ProposedLatitude></ProposedLatitude>
+    <ProposedLongitude></ProposedLongitude>
+    <CameraDeploymentBeginDate>2015-11-12</CameraDeploymentBeginDate>
+    <CameraDeploymentEndDate>2015-11-25</CameraDeploymentEndDate>
+    <CameraDeploymentNotes></CameraDeploymentNotes>
+    <ActualLatitude>32.91822052</ActualLatitude>
+    <ActualLongitude>104.1391</ActualLongitude>
+    <CameraFailureDetails>Camera Functioning</CameraFailureDetails>
+    <Bait>Scent</Bait>
+    <BaitDescription>Carman's Magna Lure</BaitDescription>
+    <Feature>Trail, game</Feature>
+    <FeatureMethodology></FeatureMethodology>
+    <AccessConstraints>LC</AccessConstraints>
+    <CameraID>WL-002</CameraID>
+    <DetectionDistance>0</DetectionDistance>
+    <QuietPeriodSetting></QuietPeriodSetting>
+    <ImageResolutionSetting></ImageResolutionSetting>
+    <SensitivitySetting></SensitivitySetting>
+    
+    <ImageSequence>
+        <ImageSequenceId>d34306s1</ImageSequenceId>
+        <ImageSequenceBeginTime>2015-11-25T15:09:00</ImageSequenceBeginTime>
+        <ImageSequenceEndTime>2015-11-25T15:10:00</ImageSequenceEndTime>
+        <VolunteerIdentifications>
+            
+            <Identification>
+                <IUCNId>22679169</IUCNId>
+                <TSNId>176065</TSNId>
+                <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                <Count>1</Count>
+                <Age></Age>
+                <Sex>Male</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable></AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+        </VolunteerIdentifications>
+        <ResearcherIdentifications>
+            
+            <Identification>
+                <IUCNId>22679169</IUCNId>
+                <TSNId>176065</TSNId>
+                <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                <Count>1</Count>
+                <Age></Age>
+                <Sex>Male</Sex>
+                <IndividualId></IndividualId>
+                <AnimalRecognizable></AnimalRecognizable>
+                <IndividualAnimalNotes></IndividualAnimalNotes>
+            </Identification>
+            
+        </ResearcherIdentifications>
+        
+        <Image>
+            <ImageId>L-WL15-S15A-0001</ImageId>
+            <ImageFileName>L-WL15-S15A-0001.JPG</ImageFileName>
+            <ImageDateTime>2015-11-25 15:09:00</ImageDateTime>
+            <ImageOrder>1</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>22679169</IUCNId>
+                    <TSNId>176065</TSNId>
+                    <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                    <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Male</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-S15A-0002</ImageId>
+            <ImageFileName>L-WL15-S15A-0002.JPG</ImageFileName>
+            <ImageDateTime>2015-11-25 15:09:00</ImageDateTime>
+            <ImageOrder>2</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>22679169</IUCNId>
+                    <TSNId>176065</TSNId>
+                    <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                    <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Male</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-S15A-0003</ImageId>
+            <ImageFileName>L-WL15-S15A-0003.JPG</ImageFileName>
+            <ImageDateTime>2015-11-25 15:10:00</ImageDateTime>
+            <ImageOrder>3</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>22679169</IUCNId>
+                    <TSNId>176065</TSNId>
+                    <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                    <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Male</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-S15A-0004</ImageId>
+            <ImageFileName>L-WL15-S15A-0004.JPG</ImageFileName>
+            <ImageDateTime>2015-11-25 15:10:00</ImageDateTime>
+            <ImageOrder>4</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>22679169</IUCNId>
+                    <TSNId>176065</TSNId>
+                    <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                    <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Male</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-S15A-0005</ImageId>
+            <ImageFileName>L-WL15-S15A-0005.JPG</ImageFileName>
+            <ImageDateTime>2015-11-25 15:10:00</ImageDateTime>
+            <ImageOrder>5</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>22679169</IUCNId>
+                    <TSNId>176065</TSNId>
+                    <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                    <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Male</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-S15A-0006</ImageId>
+            <ImageFileName>L-WL15-S15A-0006.JPG</ImageFileName>
+            <ImageDateTime>2015-11-25 15:10:00</ImageDateTime>
+            <ImageOrder>6</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>22679169</IUCNId>
+                    <TSNId>176065</TSNId>
+                    <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                    <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Male</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-S15A-0007</ImageId>
+            <ImageFileName>L-WL15-S15A-0007.JPG</ImageFileName>
+            <ImageDateTime>2015-11-25 15:10:00</ImageDateTime>
+            <ImageOrder>7</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>22679169</IUCNId>
+                    <TSNId>176065</TSNId>
+                    <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                    <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Male</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-S15A-0008</ImageId>
+            <ImageFileName>L-WL15-S15A-0008.JPG</ImageFileName>
+            <ImageDateTime>2015-11-25 15:10:00</ImageDateTime>
+            <ImageOrder>8</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>22679169</IUCNId>
+                    <TSNId>176065</TSNId>
+                    <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                    <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Male</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-S15A-0009</ImageId>
+            <ImageFileName>L-WL15-S15A-0009.JPG</ImageFileName>
+            <ImageDateTime>2015-11-25 15:10:00</ImageDateTime>
+            <ImageOrder>9</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>22679169</IUCNId>
+                    <TSNId>176065</TSNId>
+                    <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                    <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Male</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-S15A-0010</ImageId>
+            <ImageFileName>L-WL15-S15A-0010.JPG</ImageFileName>
+            <ImageDateTime>2015-11-25 15:10:00</ImageDateTime>
+            <ImageOrder>10</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>22679169</IUCNId>
+                    <TSNId>176065</TSNId>
+                    <SpeciesScientificName>Tragopan temminckii</SpeciesScientificName>
+                    <SpeciesCommonName>Temminck's tragopan</SpeciesCommonName>
+                    <Count>1</Count>
+                    <Age></Age>
+                    <Sex>Male</Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+        <Image>
+            <ImageId>L-WL15-S15A-0010</ImageId>
+            <ImageFileName>L-WL15-S15A-0010.JPG</ImageFileName>
+            <ImageDateTime>2015-11-25 15:10:00</ImageDateTime>
+            <ImageOrder>11</ImageOrder>
+            <ImageInterestRanking>None</ImageInterestRanking>
+            <digitalOrigin></digitalOrigin>
+            <PhotoType></PhotoType>
+            <PhotoTypeIdentifications>
+                <PhotoTypeIdentifiedBy></PhotoTypeIdentifiedBy>
+            </PhotoTypeIdentifications>
+            <RestrictionsonAccess></RestrictionsonAccess>
+            <EmbargoPeriodEndDate></EmbargoPeriodEndDate>
+            <ImageUseRestrictions></ImageUseRestrictions>
+            <ImageIdentifications>
+                <Identification>
+                    <IUCNId>2</IUCNId>
+                    <TSNId>2</TSNId>
+                    <SpeciesScientificName>No Animal</SpeciesScientificName>
+                    <SpeciesCommonName>No Animal</SpeciesCommonName>
+                    <Count></Count>
+                    <Age></Age>
+                    <Sex></Sex>
+                    <IndividualId></IndividualId>
+                    <AnimalRecognizable></AnimalRecognizable>
+                    <IndividualAnimalNotes></IndividualAnimalNotes>
+                </Identification>
+            </ImageIdentifications>
+        </Image>
+        
+    </ImageSequence>
+    
+
+</CameraTrapDeployment>

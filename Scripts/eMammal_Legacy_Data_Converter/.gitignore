@@ -1,0 +1,8 @@
+sample-data/wcs-sample-data
+sample-data/emammal-sample-data
+.idea
+venv
+output/*
+*.iml
+eMammalManifestValidators/*
+.DS_Store

@@ -1,0 +1,7 @@
+Camera.Deployment.ID1,Camera.Deployment.ID,Camera.Site.Name,Camera.Deployment.Begin.Date,Camera.Deployment.End.Date,Actual.Latitude,Actual.Longitude,Camera.Failure.Details,Bait,Bait.Description,Feature,Feature.Methodology,Camera.ID,Quiet.Period.Setting,Sensitivity.Setting,Subproject.Name,Subproject.ID
+d34168,L-WL15-R14A,L-WL15-R14A,11/10/2015,3/11/2016,32.92911911,104.12726,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,PU22,,high,Wanglang,2
+d34169,L-WL16-E12A,L-WL16-E12A,3/19/2016,7/30/2016,32.94573975,103.98979,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,PU22,,high,Wanglang,2
+d34170,L-WL16-F08A,L-WL16-F08A,3/19/2016,8/23/2016,32.98031998,104.00218,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,,,high,Wanglang,2
+d34171,L-WL16-G07A,L-WL16-G07A,3/19/2016,8/23/2016,32.98477936,104.00492,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,PU24,,high,Wanglang,2
+d34172,L-WL16-G20A,L-WL16-G20A,5/23/2016,7/20/2016,32.87181091,104.01121,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,WL-007,,high,Wanglang,2
+d34173,L-WL16-H03A,L-WL16-H03A,4/2/2016,7/17/2016,33.02759171,104.01746,Camera Functioning,Scent,Carman's Magna Lure,"Trail, game",,WL-001,,high,Wanglang,2
