@@ -5,42 +5,61 @@ import re
 import subprocess
 import sys
 
-path = input("Where?")
-
-#path = 'C:\\Users\\HoffordC\\Documents\\Peru_Pagoreni\\NEWeMam_Pag_GD'
-
-deployments = pandas.DataFrame()
-images = pandas.DataFrame()
-
-for dirName, subdirList, fileList in os.walk(path):
-    match = re.match(".*\\\\(.*)\\\\(.*)$",dirName)
-    try:
-        if match.lastindex == 2:
-            deployment = match.group(2)
-            print deployment
+def summarizeImages(path,csv=False):
+    deployments = pandas.DataFrame(columns=['path','deployment'])
+    images = pandas.DataFrame(columns=['path','deployment','datetime','size','image'])
+    for dirName, subdirList, fileList in os.walk(path):
+        if '.jpg' in '\t'.join(fileList).lower() and "$RECYCLE.BIN" not in dirName:
+            print(dirName, subdirList)
+            match = re.match(".*\\\\(.*)$",dirName)
+            deployment = match.group(1)
+            deployments = deployments.append({'path':dirName,'deployment':deployment},ignore_index=True)
             os.chdir(dirName)
             output = subprocess.check_output('dir /s',shell=True)
-            out_list = output.split('\r\n')
+            out_list = output.decode("utf-8").split('\r\n')
             for file in out_list:
                 try:
                     details = re.match("(\S*  \S* \S*)\s*(\S*) (\S*).JPG$", file)
                     datetime = details.group(1)
                     size = details.group(2)
                     file = details.group(3)
-                    output = open(path+'\\images.csv', 'a')
-                    output.write(dirName+','+deployment+','+datetime+','+size+','+file+'\n')
-                    output.close()
-                    #row = {'directory' : dirName, 'Deployment.ID' : deployment, 'Date_Time' : datetime, 'size' : size, 'Image.ID': file}
+                    #print([dirName,deployment,datetime,size,file])
+                    images = images.append({'path':dirName,'deployment':deployment,'datetime':datetime,'size':size,'image':file},ignore_index=True)
                 except Exception as err:
+                    #print(err)
+                    #print(file)
                     output = open(path+'errors.csv', 'a')
                     output.write(dirName+','+deployment+','+'\n')
                     output.close()
-            #file.write(deployment+'\n')
-            #file.close()
-            os.chdir(path)
-    except Exception:
-        output = open(os.path.join(path,'errors.csv'), 'a')
-        output.write(dirName+','+str(sys.exc_info()[0])+'\n')
-        output.close()
-        #print('error on: '+dirName)
-        #print(err+'\n')
+    if csv:
+        outpath = os.path.join(path,'images.csv')
+        images.to_csv(outpath,index=False)
+        deployments.to_csv(os.path.join(path,'deployments.csv'),index=False)
+        return outpath
+    return(images)
+                
+def summarizeDeployments(path,csv=False):
+    deployments = pandas.DataFrame(columns=['path','deployment'])
+    for dirName, subdirList, fileList in os.walk(path):
+        if '.jpg' in '\t'.join(fileList).lower() and "$RECYCLE.BIN" not in dirName:
+            print(dirName, subdirList)
+            match = re.match(".*\\\\(.*)$",dirName)
+            deployment = match.group(1)
+            deployments = deployments.append({'path':dirName,'deployment':deployment},ignore_index=True)
+    if csv:
+        outpath = os.path.join(path,'deployments.csv')
+        deployments.to_csv(outpath,index=False)
+        return(outpath)
+    return(deployments)
+    
+if __name__ =="__main__":
+
+    path = input("Where?")
+    type = input("deployments or images?")
+    if type == 'images':
+        print(summarizeImages(path,csv=True))
+    else:
+        print(summarizeDeployments(path,csv=True))
+    
+
+#path = 'C:\\Users\\HoffordC\\Documents\\Peru_Pagoreni\\NEWeMam_Pag_GD'

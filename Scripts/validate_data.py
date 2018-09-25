@@ -118,7 +118,7 @@ def check_zip_folders(path): #takes a path to a folder of zipped deployments and
         os.chdir(path)
         if zipfile.is_zipfile(x):
             z = zipfile.ZipFile(x) 
-            #print(x)
+            print(x)
             try:
                 xml = z.read('deployment_manifest.xml').decode('latin')
                 actualfiles = [x for x in z.namelist() if x != 'deployment_manifest.xml']#this list is all files except the deployment manifest
@@ -170,14 +170,15 @@ def main():
     if args.type == 'folder':
         deployments = check_folders(args.folder)
     output = args.output+'.json'
+    errors = {i:deployments[i] for i in deployments if not deployments[i]['valid']}
     try:
         with open(output, 'w') as file:
-            file.write(json.dumps(deployments))
+            file.write(json.dumps(errors))
     except:
         output = 'output.json'
         with open(output, 'w') as file:
-            file.write(json.dumps(deployments))
-    print('The output has been saved to '+str(os.path.realpath(output)))
+            file.write(json.dumps(errors))
+    print('The output of invalid files has been saved to '+str(os.path.realpath(output)))
     
 if __name__ == "__main__":
     main()
