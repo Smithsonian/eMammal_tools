@@ -33,7 +33,7 @@ def getDeploymentctPID(baseurl, depid):
 	returnedobject = json.loads(request.text)
 	return returnedobject["response"]["docs"][0]["ctPID"].encode('utf-8')
     
-def getCSV(deployments):
+def getCSV(deployments):#downloads CSVs of observations, expects dict formatted as getPID() response
     cookie = input("Paste the session cookie from your workbench session. In chrome hit f12 click network, load a page, select the first row, go to request headers and copy the cookie string.\n\n")
     payload = {"Host": "workbench.sidora.si.edu"
     ,"Connection": "keep-alive"
@@ -54,24 +54,34 @@ def getCSV(deployments):
             else:
                 print(str(deployment) + "Error :: " + str(csv_response.status_code))
 
-def getDepStatus(df):
-    request_id = requests.get("http://oris-srv04.si.edu:8090/solr/gsearch_sianct/select?q=ctLabel%3A"+df['Deployment Name Corr']+"&wt=json&indent=true")#creates a URL to search for the deployment
+def getDepStatus(df):#takes a row of a dataframe, finds a column named Deployments, and returns True or False
+    request_id = requests.get("http://oris-srv04.si.edu:8090/solr/gsearch_sianct/select?q=ctLabel%3A"+df['Deployments']+"&wt=json&indent=true")#creates a URL to search for the deployment
     response = json.loads(request_id.text)
-    docs = response['response']['docs']
-    if len(docs)>1:
-        return True
+    if request_id.status_code == 200:
+        docs = response['response']['docs']
+        if len(docs)>1:
+            return True
+        else:
+            return False
     else:
-        return False
-        
+        print(request_id.status_code)
+        print(df['Deployments'])
+
 if __name__ == '__main__':#this allows this file to be run as a script or imported as a package
     parser = argparse.ArgumentParser()
     parser.add_argument('--getcsvs', help='True if you want to download the CSVs from workbench')
+    parser.add_argument('--fromcsv', help='a path to a CSV containing a column named Deployments, returns results to <this file>_results.csv')#specify in order to fill a field in a CSV
     args = parser.parse_args()
-    deps = input("paste a list of deployment names split by spaces").split()
-    print(deps)
-    details = getPID(deps)#creates a list of deployments from user input
-    print(details)
-    output = input('Give a filename to export the deployments to: ')
-    pandas.DataFrame.from_dict(details,orient='index').to_csv(output)
-    if args.getcsvs:
-        getCSV(details)
+    if args.fromcsv:
+        df = pandas.read_csv(args.fromcsv)
+        df['Uploaded'] = df.apply(getDepStatus, axis=1)
+        df.to_csv(args.fromcsv+'_results.csv')
+    else:
+        deps = input("paste a list of deployment names split by spaces").split()
+        print(deps)
+        details = getPID(deps)#creates a list of deployments from user input
+        print(details)
+        output = input('Give a filename to export the deployments to: ')
+        pandas.DataFrame.from_dict(details,orient='index').to_csv(output)
+        if args.getcsvs:
+            getCSV(details)
