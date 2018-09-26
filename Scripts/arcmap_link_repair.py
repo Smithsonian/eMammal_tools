@@ -97,7 +97,7 @@ if __name__ == '__main__':
     #missed = replace_path(maps,r"O:\Field Ecology\Lovely, Deer\GIS_Data\Frederick County",r"T:\Lovely, Deer\GIS_Data\Frederick County\Old Shapefiles")
     missed = replace_path(maps,old_path,new_path)
     logfile = raw_input("Where would you like to save the summary of remaining broken data sources?")
-    logfile = logfile if os.path.isdir(os.path.normpath(logfile)) else os.path.join(top,"missing.json")
+    logfile = logfile if (os.path.isdir(os.path.normpath(logfile)) and logfile != '') else os.path.join(top,"missing.json")
     with open(logfile,'w') as f:
         f.write(json.dumps(missed))
     print('Any remaining broken sources have been saved as '+str(os.path.realpath(logfile)))
